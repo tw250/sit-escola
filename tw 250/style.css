@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.logo-um{
+    width: 10%;
+    position: relative;
+    right:  200px;
+}
+
+.cabecalho-lista{
+  position: relative;
+  left: 100px
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+
+.titulo{
+    text-align: center;
+    padding: 24px 0;
+    position: relative;
+    left: 350px;
+}
+
+.texto-um{
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  left: 350px;
+}
+
+.estudante{
+    background-image: linear-gradient(#16CFF8,#424E61);
+    padding: 24px 0;
+}
+.honda1{
+    width: 25%;
+    position: relative;
+    left:  400px;
+    bottom: 50px;
+}
+
+.honda2{
+    width: 25%;
+    position: relative;
+    right: 1300px;
+    top: 100px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.estudante-imagem{
+  width: 90%;
+}
+
+.titulo-dois{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    position: relative;
+}
+
+.rodape{
+    background-color: white;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 100px;
+    position: relative;
+    right: 500px;
+    bottom: 10px;
+
+}
+
+.rodape-texto{
+  bottom : 25px;
+  display: inline-flex;
+  position: relative;
+  left: 400px;
+  margin: 10px 16px;
+  font-size: 16px;
+}
